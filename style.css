@@ -1,0 +1,51 @@
+body{
+	color:#555;font:12px Georgia;
+	background:#ccc;
+	
+}
+embed,object{
+	position:absolute;
+	bottom:-100px;
+}
+.clear{clear:both;}
+
+#bday{padding:50px;font-size:30px;text-align:center;line-height:42px;}
+
+#page{
+	background:#fff;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-300px;
+	margin-top:-200px;
+	width:600px;
+	height:400px;
+	-moz-box-shadow:#ccc 3px 3px 3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	overflow:scroll;
+	border: #ccc solid 1px;
+}
+.u-box{
+	display:none;
+	width:500px;
+	padding-bottom:5px;
+	margin:10px auto;
+	position:relative;
+	border-bottom:#ccc solid 1px;
+}
+.u-pic{
+	float:left;
+	position:relative;
+	border:#ccc solid 1px;
+	width:50px;
+	height:50px;
+	overflow:hidden;
+}
+.u-pic.s{background:url('images/sam.jpg');}
+.u-pic.d{background:url('images/deepa.png');}
+.u-txt{float:right;	width:400px;height:100%;position:relative;color:#555;font:12px Georgia;}
+.u-txt h1{font:12px Georgia;color:rgb(59,89,152);margin-top:-2px;font-weight:bold;}
+
+img{}
+.img_box{background:#000;border:#999 solid 3px;border-radius:3px;-moz-box-shadow:#555 2px 3px 5px;height:200px;	width:300px;overflow:hidden;margin:0 auto;}
